@@ -2,7 +2,7 @@ nav {
     color: rgb(9, 9, 120);
     background-color: rgb(219, 219, 206);
     text-align: right;
-    padding: 17px 27px 13px;
+    padding: 19px 27px 17px;
 }
 
 nav img {
@@ -35,6 +35,7 @@ nav a:hover {
     color:rgb(219, 219, 206);
 }
 
+
 main {
     background-color: rgb(250, 250, 231);
     padding-bottom: 10px;
@@ -46,6 +47,28 @@ main {
     margin-right: auto;
     width: 50%;
 }
+
+
+
+#intro {
+    padding: 20px;
+    font-family: "Lugrasimo";
+    color: rgb(9, 9, 120);
+    text-align: center;
+    margin-bottom: 60pt;
+}
+
+#intro h1 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#intro p{
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+
 
 
 #gallery {
@@ -75,6 +98,7 @@ main {
 }
 
 
+
 #contact {
     text-align: center;
     color: rgb(144, 70, 13);
@@ -91,6 +115,7 @@ main {
     border: solid rgb(144, 70, 13) 3px;
     border-radius: 15px 50px;
 }
+
 
 
 footer {
