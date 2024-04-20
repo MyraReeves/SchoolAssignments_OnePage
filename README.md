@@ -1,6 +1,6 @@
 # Single Page Websites
 
-These are school assignments which asked for single, stand-alone homepages to be created on various different subject matters.
+These are school assignments that asked for single, stand-alone homepages to be created on various different subject matters.
 
 <br>
 
