@@ -4,8 +4,6 @@ These are school assignments that asked for single, stand-alone homepages to be 
 
 <br>
 
-<br>
-
 ### 🚀 [Galactic Explorers](spacetravel.html) 🚀
    
 Requirements:
