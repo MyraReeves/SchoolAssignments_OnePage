@@ -73,7 +73,7 @@ main {
 
 #gallery {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     text-align: center;
     color: rgb(144, 70, 13);
     font-weight: bold;
@@ -102,17 +102,62 @@ main {
 #contact {
     text-align: center;
     color: rgb(144, 70, 13);
-    font-weight: bold;
-    text-shadow: gray 2px 2px 3px;
-    font-size: 23pt;
 }
 
+#contact h1 {
+    margin-bottom: 10px;
+    font-size: 23pt;
+    font-weight: bold;
+    text-shadow: gray 2px 2px 3px;
+    text-decoration: underline;
+}
+
+#tour {
+    margin: 30px;
+    text-align: left;
+}
+
+#contactForm {
+    border:  rgb(9, 9, 120) solid 1px;
+    box-shadow: 3px 3px 5px gray;
+    background-color: #e7feff;
+    color:  rgb(9, 9, 120);
+    padding: 20px;
+    width: 30%;
+}
+
+#contactForm legend {
+    font-weight: bold;
+}
+
+#purposeSection {
+    margin-bottom: 15px;
+}
+
+#customerInfo input {
+    margin: 5px;
+}
+
+#customerInfo select {
+    margin: 5px;
+}
+
+#commentSection {
+    margin-top: 15px;
+}
+
+button {
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
 
 #exterior {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: solid rgb(144, 70, 13) 3px;
+    border: double rgb(144, 70, 13) 4px;
     border-radius: 15px 50px;
 }
 
