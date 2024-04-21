@@ -106,45 +106,49 @@
                 <p>We are also able to conduct services and tours virtually.</p>
 
                 <form id="tour" method="post">
-                    <fieldset id="contactForm">
-                        <legend>&nbsp; Contact Us! &nbsp;</legend>
+                    <div class="centerForm">
+                        <fieldset id="contactForm">
+                            <legend>&nbsp; Contact Us! &nbsp;</legend>
 
-                            <fieldset id="purposeSection">
-                                <input id="requestTour" type="radio" name="purpose">
-                                <label for="requestTour">Request a tour</label><br>
-                                <input id="contactManager" type="radio" name="purpose">
-                                <label for="contactManager">Contact manager</label>
-                            </fieldset>
+                                <fieldset id="purposeSection">
+                                    <input id="requestTour" type="radio" name="purpose">
+                                    <label for="requestTour">Request a tour</label><br>
+                                    <input id="contactManager" type="radio" name="purpose">
+                                    <label for="contactManager">Contact manager</label>
+                                </fieldset>
 
-                            <fieldset id="customerInfo">
-                                <label for="customerName">Name:</label>
-                                <input name="customerName" type="text" required><br>
-        
-                                <label for="phone">Contact phone number:</label>
-                                <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" id="phone" required><br>
-        
-                                <label for="email">Email:</label>
-                                <input name="email" type="email"><br>
-        
-                                <label for="bedroomNumber">Desired number of bedrooms:</label>
-                                <select name="bedroomNumber" id="bedroomNumber" required>
-                                    <option value="any">Any</option>
-                                    <option value="1">One bedroom</option>
-                                    <option value="2">Two bedrooms</option>
-                                    <option value="3">Three bedrooms</option>
-                                    <option value="4">Four bedrooms</option>
-                                </select>        
-                            </fieldset>
+                                <fieldset id="customerInfo">
+                                    <label for="customerName">Name:</label>
+                                    <input name="customerName" type="text" required><br>
+            
+                                    <label for="phone">Contact phone number:</label>
+                                    <input name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" id="phone" required><br>
+            
+                                    <label for="email">Email:</label>
+                                    <input name="email" type="email"><br>
+            
+                                    <label for="bedroomNumber">Desired number of bedrooms:</label>
+                                    <select name="bedroomNumber" id="bedroomNumber" required>
+                                        <option value="any">Any</option>
+                                        <option value="1">One bedroom</option>
+                                        <option value="2">Two bedrooms</option>
+                                        <option value="3">Three bedrooms</option>
+                                        <option value="4">Four bedrooms</option>
+                                    </select>        
+                                </fieldset>
 
-                            <fieldset id="commentSection">
-                                <legend>Comments:</legend>
-                                <label for="comments"></label>
-                                <textarea name="comments" id="comments" rows="6" cols="50"></textarea>        
-                            </fieldset>
+                                <fieldset id="commentSection">
+                                    <legend>Comments:</legend>
+                                    <label for="comments"></label>
+                                    <textarea name="comments" id="comments" rows="6" cols="50"></textarea>        
+                                </fieldset>
 
-                    </fieldset>
+                        </fieldset>
+                    </div>
 
+                    <div class="centerForm">
                     <button type="submit">Submit</button>
+                    </div>
 
                 </form>
             </div>
