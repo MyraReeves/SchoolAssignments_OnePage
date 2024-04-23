@@ -102,6 +102,7 @@ main {
 #contact {
     text-align: center;
     color: rgb(144, 70, 13);
+    margin-bottom: 60pt;
 }
 
 #contact h1 {
@@ -161,16 +162,31 @@ button {
 
 
 
-
 #exterior {
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#exterior img {
     border: double rgb(144, 70, 13) 4px;
     border-radius: 15px 50px;
 }
 
+#exterior ul {
+    color: rgb(9, 9, 120);
+    font-size: 16pt;
+}
+
+#exterior ul h2 {
+    color: rgb(144, 70, 13);
+    font-weight: bold;
+    text-shadow: gray 2px 2px 3px;
+    font-size: 23pt;
+    text-indent: 1em;
+    text-decoration: underline;
+}
 
 
 footer {
