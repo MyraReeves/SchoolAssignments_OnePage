@@ -23,4 +23,4 @@ Requirements:
 
 * Photo gallery
 * Form
-* Locally hosted video
+* Video file
