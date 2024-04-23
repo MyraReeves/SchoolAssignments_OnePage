@@ -21,6 +21,7 @@ Student's choice of theme.  Open to any topic for the page
 
 Requirements:
 
+* Links at top of page to sections
 * Photo gallery
 * Form
 * Video file
