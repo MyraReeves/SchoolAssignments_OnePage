@@ -89,6 +89,7 @@ main {
 .gallery-photo {
     margin: 5px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .gallery-photo img {
