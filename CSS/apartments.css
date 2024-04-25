@@ -199,3 +199,7 @@ footer {
 footer p{
     padding: 3pt;
 }
+
+
+/* Temporary screen size fix for mobile devices */
+@media (max-width: 1200px) { #exterior { flex-direction: column; } }
