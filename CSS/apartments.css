@@ -115,7 +115,7 @@ main {
 }
 
 #tour {
-    margin: 30px;
+    margin: 30px auto;
     text-align: left;
 }
 
@@ -130,7 +130,7 @@ main {
     background-color: #e7feff;
     color:  rgb(9, 9, 120);
     padding: 20px;
-    width: 30%;
+    width: 27%;
 }
 
 #contactForm legend {
@@ -155,8 +155,8 @@ main {
 
 button {
     margin: 10px;
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 13%;
+    padding-right: 13%;
     font-weight: bold;
     border: solid black 2px;
 }
