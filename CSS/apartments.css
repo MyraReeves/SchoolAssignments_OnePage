@@ -159,6 +159,7 @@ button {
     padding-right: 13%;
     font-weight: bold;
     border: solid black 2px;
+    cursor: pointer;
 }
 
 
