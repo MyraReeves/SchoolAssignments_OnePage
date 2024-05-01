@@ -162,6 +162,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    color: #e7feff;
+    border: solid #e7feff 2px;
+    background-color: black;
+}
 
 
 #exterior {
