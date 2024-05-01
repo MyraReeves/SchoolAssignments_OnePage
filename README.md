@@ -1,6 +1,6 @@
 # Single Page Websites
 
-These are school assignments that asked for single, stand-alone homepages to be created on various different subject matters.
+These were school assignments that asked for single, stand-alone homepages to be created.
 
 <br>
 
@@ -24,4 +24,15 @@ Requirements:
 * Links at top of page to sections
 * Photo gallery
 * Form
-* Video file
+* Embedded video file
+
+<br>
+
+### 🎥 [Academy Cinemas](bootstrap.html) 🎥
+
+Requirements:
+
+* Use of Bootstrap 4 to create page
+* Movie theater theme
+* HTML structure dictated by school
+* Styling dictated by school
