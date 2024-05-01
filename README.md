@@ -1,6 +1,6 @@
 # Single Page Websites
 
-These were school assignments that asked for single, stand-alone homepages to be created.
+These were school assignments that asked for single, stand-alone homepages.
 
 <br>
 
@@ -32,7 +32,7 @@ Requirements:
 
 Requirements:
 
-* Use of Bootstrap 4 to create page
+* Use of Bootstrap 4 to create the page
 * Movie theater theme
 * HTML structure dictated by school
 * Styling dictated by school
