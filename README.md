@@ -21,7 +21,7 @@ Student's choice of theme.  Open to any topic for the page
 
 Requirements:
 
-* Links at top of page to sections
+* Bookmark links at top of page for navigation
 * Photo gallery
 * Form
 * Embedded video file
@@ -36,3 +36,4 @@ Requirements:
 * Movie theater theme
 * HTML structure dictated by school
 * Styling dictated by school
+* HTML bookmark links to navigate the page
