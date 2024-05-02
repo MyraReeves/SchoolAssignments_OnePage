@@ -34,6 +34,6 @@ Requirements:
 
 * Use of Bootstrap 4 to create the page
 * Movie theater theme
-* HTML structure dictated by school
-* Styling dictated by school
+* Layout & color scheme dictated by school
 * HTML bookmark links to navigate the page
+* Pill badges for the movie times
