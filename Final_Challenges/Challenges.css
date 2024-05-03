@@ -1,0 +1,272 @@
+/* Challenge 1 */
+
+
+#challenge1 {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: drop-shadow(8px 8px 10px gray);
+    border-radius: 25px;
+}
+
+
+
+
+/* Challenge 2 */
+
+
+footer {
+    margin: 25px;
+    background-color: rgb(94, 50, 33);
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.5em;
+    padding: 1px;
+}
+
+
+
+
+
+
+/* Challenge 3 */
+
+
+table {
+    margin: 30px;
+    border: rgb(128, 0, 96) 1px solid;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+tr {
+    text-align: center;
+}
+
+
+th {
+    background-color: rgb(222, 216, 216);
+    border: rgb(128, 0, 96) 1px solid;
+    padding: 10px 7px;
+    font-size: larger;
+}
+
+
+.flowers {
+    color: rgb(128, 0, 96);
+}
+
+
+td {
+    padding: 10px;
+    border: rgb(128, 0, 96) 1px solid;
+    background-color: whitesmoke;
+}
+
+
+.flower {
+    background-color: rgb(245, 164, 224);
+}
+
+
+
+
+/* Challenge 4 */
+
+
+#Challenge4 {
+    position: relative;
+    color:antiquewhite;
+}
+
+
+#Challenge4 img{
+    width: 50%;
+    border: dotted 7px pink;
+}
+
+
+#ImageCredit{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color:black;
+    text-shadow: antiquewhite 5px 5px 6px;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+
+
+
+/* Challenge 5 */
+
+
+nav {
+    overflow: hidden;
+    background-color: rgb(233, 202, 155);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+nav a{
+    float: left;
+    display: block;
+    color:rgb(60, 28, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    background-color: antiquewhite;
+    color: darkred;
+}
+
+
+
+
+
+
+/* Challenge 6 */
+#challenge6 {
+    margin-bottom: 200px;
+}
+
+
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.column p {
+    font-style: italic;
+    font-size: larger;
+}
+
+
+/* Clear the float effect afterthe columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+/* Challenge 7 */
+#challenge7 {
+    text-align: center;
+    background-color: black;
+    color: pink;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+
+#challenge7 p:hover {
+    background-color: pink;
+    color: black;
+}
+
+
+
+
+
+
+/* Challenge 8 */
+#Eight {
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: black;
+}
+
+
+#Eight:hover .overlay{
+    opacity: 1;
+}
+
+
+.overlay p {
+    color: antiquewhite;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 20%
+}
+
+
+
+
+
+
+/* Challenge 9 */
+#Nine {
+    border: black 2px solid;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 640px;
+    filter: drop-shadow(8px 8px 15px black);
+}
+
+
+
+
+/* Challenge 10 */
+#Ten {
+    border: rgb(53, 13, 156) 10px solid;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 800px;
+    filter: drop-shadow(1px 1px 1px rgb(110, 238, 245));
+}
+
+
+#Ten video{
+    width: 800px;
+}
+
+
+#Ten p{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    filter: none;
+}
