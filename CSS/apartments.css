@@ -10,14 +10,16 @@ nav img {
     padding-left: 25px;
 }
 
-nav li{
-    display: inline-block; text-decoration: none; padding: 1%;
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1%;
     font-weight: bold;
     font-size: 16pt;
 }
 
 nav li:hover {
-    color:rgb(219, 219, 206);
+    color: rgb(219, 219, 206);
     background-color: rgb(9, 9, 120);
 }
 
@@ -32,7 +34,7 @@ a:visited {
 }
 
 nav a:hover {
-    color:rgb(219, 219, 206);
+    color: rgb(219, 219, 206);
 }
 
 
@@ -63,7 +65,7 @@ main {
     font-weight: bold;
 }
 
-#intro p{
+#intro p {
     font-size: 16pt;
     margin-top: 20px;
 }
@@ -71,19 +73,24 @@ main {
 
 
 
+
+/* =================================== */
+/*          IMAGE GALLERY             */
+/* ================================= */
+
 #gallery {
     margin-top: 40px;
     margin-bottom: 80px;
     text-align: center;
     color: rgb(144, 70, 13);
-    font-weight: bold;
-    text-shadow: gray 2px 2px 3px;
-    font-size: 23pt;
 }
 
 #gallery h1 {
     margin-bottom: 10px;
     text-decoration: underline;
+    font-size: 23pt;
+    font-weight: bold;
+    text-shadow: gray 2px 2px 3px;
 }
 
 .gallery-photo {
@@ -98,7 +105,111 @@ main {
     box-shadow: 3px 3px 5px gray;
 }
 
+/* ---------------- LIGHTBOX ---------------- */
+/* Modal background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(219, 219, 206);
+    ;
+}
 
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    height: 595px;
+    max-width: 834px;
+}
+
+/* The Close X Button */
+.close {
+    color: rgb(9, 9, 120);
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(144, 70, 13);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(9, 9, 120);
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    color: white;
+}
+
+/* Number text (1/12 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.scrollbarImage {
+    opacity: 0.6;
+}
+
+.active,
+.scrollbarImage:hover {
+    opacity: 1;
+}
+
+
+
+
+
+/* ========================================== */
+/*          SCHEDULE A TOUR FORM             */
+/* ======================================== */
 
 #contact {
     text-align: center;
@@ -125,10 +236,10 @@ main {
 }
 
 #contactForm {
-    border:  rgb(9, 9, 120) solid 1px;
+    border: rgb(9, 9, 120) solid 1px;
     box-shadow: 3px 3px 5px gray;
     background-color: #e7feff;
-    color:  rgb(9, 9, 120);
+    color: rgb(9, 9, 120);
     padding: 20px;
     width: 27%;
 }
@@ -202,10 +313,14 @@ footer {
     text-align: center;
 }
 
-footer p{
+footer p {
     padding: 3pt;
 }
 
 
 /* Temporary screen size fix for mobile devices */
-@media (max-width: 1200px) { #exterior { flex-direction: column; } }
+@media (max-width: 1200px) {
+    #exterior {
+        flex-direction: column;
+    }
+}
