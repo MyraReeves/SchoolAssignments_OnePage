@@ -36,12 +36,13 @@
         <section>
             <div id="gallery">
                 <h1>Gallery</h1>
-                <div>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
 
                     <!-- #1: Dark Planet image -->
                     <div>
                         <div>
-                            <img src="Images/Thumb/thumbnail_1.jpg" alt="Dark red planet that is falling apart at the bottom and surrounded by large chunks of it">
+                            <img src="Images/Thumb/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" alt="Dark red planet that is falling apart at the bottom and surrounded by large chunks of it">
                             <div id="overlay">
                                 <h3>Click to Enlarge</h3>
                                 <h4>"Iron Wolf" tour</h4>
