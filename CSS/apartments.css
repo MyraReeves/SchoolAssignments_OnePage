@@ -118,7 +118,6 @@ main {
     height: 100%;
     overflow: auto;
     background-color: rgb(219, 219, 206);
-    ;
 }
 
 /* Modal Content */
@@ -161,7 +160,7 @@ main {
     cursor: pointer;
     top: 50%;
     width: auto;
-    padding: 16px;
+    padding: 16px 16px 90px 16px;
     margin-top: -50px;
     color: rgb(9, 9, 120);
     font-weight: bold;
