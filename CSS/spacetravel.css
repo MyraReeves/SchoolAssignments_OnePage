@@ -139,13 +139,9 @@ section {
     max-height: 340px;
     margin: 0% auto;
     content: " ";
-    /* top: 0; */
-    /* left: 0; */
-    /* position: absolute; */
     position: fixed;
     width: 100%;
     z-index: 100;
-    /* background-color: rgba(255, 255, 255, 0.5); */
 }
 
 
@@ -163,7 +159,6 @@ section {
 
 .menu li {
     color: #000;
-    /* background-color: #052136; */
     background-color: rgba(255, 255, 255, 1);
     display: inline-block;
     margin: 0% auto;
