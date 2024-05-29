@@ -1,47 +1,48 @@
 // THIS FILE WAS CREATED WITH HELP FROM:  w3schools.com
 
 
-function showSlides(n) {
+// A function to open the Modal:
+function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+
+// A function to close the Modal:
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+
+  // Adds the "Next" and "Previous" controls:
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+
+  // Thumbnail image controls:
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  
+  
+  function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
+    var dots = document.getElementsByClassName("scrollbarImage");
     var captionText = document.getElementById("caption");
-    if (n > slides.length) {slidesIndex = 1}
+    if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    for (i = 0; i <dots.length; i++) {
+    for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
-    captionText.innerHTML = dots[slideIndex-1].lastChild;
-}
-
-
-// A function to open the Modal:
-function openModal() {
-    document.getElementById("myModal").style.display = "block";
-}
-
-// A function to close the Modal:
-function closeModal() {
-    document.getElementById("myModal").style.display = "none";
-}
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-
-// Add "Next" and "Previous" controls:
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-
-// Thumbnail image controls:
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
