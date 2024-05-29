@@ -364,7 +364,7 @@ p {
 }
 
 
-.photo-overlay {
+.overlay {
     opacity: 0;
     transition: opacity 0.5s;
     border-radius: 10px;
@@ -372,22 +372,14 @@ p {
 }
 
 
-.photo-overlay:hover {
+.overlay:hover {
     opacity: 1;
 }
 
 
 
 
-
-
-
-
-
-
 /* -----------------------RSVP CONTACT------------------- */
-
-
 #contact {
     background-color: #f5f3f3;
 }
