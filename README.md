@@ -23,6 +23,7 @@ Requirements:
 
 * Bookmark links at top of page for navigation
 * Photo gallery
+* JavaScript modal image gallery (lightbox)
 * Form
 * Embedded video file
 
