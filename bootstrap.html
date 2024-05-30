@@ -293,12 +293,9 @@
                     <p class="lead" style="font-weight: 800; padding-bottom: 17px;">Academy Club members enjoy monthly discounts</p>
 
                     <!-- Movie deals -->
-                    <button type="button" data-toggle="modal" data-target="#register">
+                    <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#sign-in">
                         See this month's discounted movies!
                     </button>
-                    <!-- <button type="button" class="btn btn-outline-warning" data-toggle="model" data-target="#register">
-                        See this month's discounted movies!
-                    </button> -->
                 </div>
             </div>
         </div>
@@ -319,24 +316,38 @@
 
 
 
-        <!-- Form modal -->
-        <div class="modal fade" tabindex="-1" role="dialog" id="register">
+        <!-- Sign-in modal -->
+        <div class="modal fade" tabindex="-1" role="dialog" id="sign-in">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Please sign in to your rewards account:
-                    Register here to recieve monthly movie deals</h5>
+                  <h4 class="modal-title">Please sign in to your rewards account:</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Username:</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password:</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
 
 
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                    <h6>Not already an Academy Movie Club Rewards Member?  Register here!</h6>
+                  <button type="button" class="btn btn-info">Sign up</button>
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
