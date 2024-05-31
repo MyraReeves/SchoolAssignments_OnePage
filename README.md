@@ -36,9 +36,10 @@ Requirements:
 * Use of Bootstrap 4 to create the page
 * Movie theater theme
 * HTML bookmark links to navigate the page
+* "About Us" exact wording was dictated by school
 * Pill badges for the movie times
-* Use a modal popup when clicking the button in "Deals" section
-* Use a form in the "Club Rewards" section
+* Use of a modal popup when clicking the button in "Deals" section
+* Use of a form in the "Club Rewards" section
 
 <br>
 
