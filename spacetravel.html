@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Galactic Explorers</title>
+
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/spacetravel.css">
+
+    <script src="JS/spacetravel.js" defer></script>
 </head>
 <body>
     <header>
@@ -69,7 +72,6 @@
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Escape Velocity" tour</h4>
-                                <!-- <p>We have several space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -81,7 +83,6 @@
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Celestia" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -89,11 +90,10 @@
                     <!-- 5: Nebula image -->
                     <div class="photo-container">
                         <div class = "photo">
-                            <img src="Images/Thumbnails/Space5_thumbnail.jpg" alt="Nebula">
+                            <img src="Images/Thumbnails/Space5_thumbnail.jpg" onclick="openModal();currentSlide(5)" alt="Nebula">
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Star Nursery" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -101,11 +101,10 @@
                     <!-- #6: Sulphur planet image -->
                     <div class="photo-container">
                         <div class = "photo">
-                            <img src="Images/Thumbnails/Space6_thumbnail.jpg" alt="Yellow and orange splotched planet">
+                            <img src="Images/Thumbnails/Space6_thumbnail.jpg" onclick="openModal();currentSlide(6)" alt="Yellow and orange splotched planet">
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Sulphur City" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -113,11 +112,10 @@
                     <!-- #7: Earth in shadows image -->
                     <div class="photo-container">
                         <div class = "photo">
-                            <img src="Images/Thumbnails/Space7_thumbnail.jpg" alt="A dark blue, Earth-like planet surrounded by stars">
+                            <img src="Images/Thumbnails/Space7_thumbnail.jpg" onclick="openModal();currentSlide(7)" alt="A dark blue, Earth-like planet surrounded by stars">
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Blue Marble" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -125,11 +123,10 @@
                     <!-- #8: Twin planets image -->
                     <div class="photo-container">
                         <div class = "photo">
-                            <img src="Images/Thumbnails/Space8_thumbnail.jpg" alt="A sun to the left of both a dark red planet and blue & white planet, with glowing blue clouds to the lower right of both planets">
+                            <img src="Images/Thumbnails/Space8_thumbnail.jpg" onclick="openModal();currentSlide(8)" alt="A sun to the left of both a dark red planet and blue & white planet, with glowing blue clouds to the lower right of both planets">
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Solar Sailor" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
@@ -137,16 +134,78 @@
                     <!-- #9: Red galaxy image -->
                     <div class="photo-container">
                         <div class = "photo">
-                            <img src="Images/Thumbnails/Space9_thumbnail.jpg" alt="Blood red colored galaxy">
+                            <img src="Images/Thumbnails/Space9_thumbnail.jpg" onclick="openModal();currentSlide(9)" alt="Blood red colored galaxy">
                             <div class ="overlay">
                                 <h3 class = "white-header">Click to Enlarge</h3>
                                 <h4>"Space Patrol" tour</h4>
-                                <!-- <p>We have serveral space launches departing daily. Book your flight today!</p> -->
                             </div>
                         </div>
                     </div>
                     
                 </div>
+
+                <!------------------------------------- The Modal ------------------------------>
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                            
+                        <div class="ourTours">
+                            <div class="tourName">Iron Wolf tour</div>
+                            <img src="Images/Space1.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">Visit the dark planet!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">Warp Drive tour</div>
+                            <img src="Images/Space2.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">Venture beyond the outer spiral arm in a once-in-a-lifetime journey!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">3</div>
+                            <img src="Images/Space3.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">4</div>
+                            <img src="Images/Space4.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">5</div>
+                            <img src="Images/Space5.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">6</div>
+                            <img src="Images/Space6.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">7</div>
+                            <img src="Images/Space7.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">Solar Sailor tour</div>
+                            <img src="Images/Space8.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                        <div class="ourTours">
+                            <div class="tourName">Space Patrol tour</div>
+                            <img src="Images/Space9.jpg" class="scrollbarImage cursor" style="width:100%">
+                            <!-- <div class="caption">We have several space launches departing daily. Book your flight today!</div> -->
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -167,14 +226,17 @@
                         </p>
 
                         <div class="form-rsvp">
-                            <form action="" method="post">
-                                <input class="rsvp" type="text" value="" placeholder="First Name">
-                                <input class="rsvp" type="text" value="" placeholder="Last Name">
-                                <input class="rsvp" type="text" value="" placeholder="Email Address">
-                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                            <form id="reserve" action="" method="post">
+                                <input class="rsvp" id="FirstName" type="text" placeholder="First Name">
+                                <input class="rsvp" id="LastName" type="text" placeholder="Last Name">
+                                <input class="rsvp" id="Email" type="text" placeholder="Email Address">
+                                <input class="rsvp" id="Phone" type="text" placeholder="Phone Number"><br>
+                                <br>
+                                <label for = "RequestedTour">Which tour would you like to book?</label>
+                                <input class="rsvp" id="RequestedTour" type="text" value="" placeholder="Name of tour">
                                 
                                 <div class="form-spacer">
-                                    <label class="terms">Terms and Conditions</label>
+                                    <p class="terms">Terms and Conditions</p>
                                 </div>
 
                                 <div class="submit">
